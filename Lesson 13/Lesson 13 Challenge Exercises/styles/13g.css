@@ -1,0 +1,75 @@
+div,
+span {
+    font-family: Arial;
+}
+
+.tweet {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 12px;
+}
+
+.tweet-content {
+    flex: 1;
+}
+
+.user-info {
+    margin-bottom: 5px;
+}
+
+.username {
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.handle {
+    color: rgb(100, 110, 120);
+    font-size: 16px;
+}
+
+.tweet-text {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+
+.link-preview {
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(210, 210, 210);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.thumbnail {
+    width: 140px;
+    background-color: rgb(220, 220, 220);
+}
+
+.link-content {
+    flex: 1;
+    padding: 12px;
+}
+
+.website {
+    color: rgb(100, 110, 120);
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.video-title {
+    font-size: 18px;
+    line-height: 24px;
+}
